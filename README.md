@@ -316,16 +316,14 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-**Tiago Silva**
+**Tiago Simao**
 - GitHub: [@TiagoSimaodev](https://github.com/TiagoSimaodev)
-- LinkedIn: [Seu LinkedIn]
-- Email: contato@doceria.com
+- LinkedIn: (https://www.linkedin.com/in/tiagosimaodev/)
+- Email: tiagosimao.dev@gmail.com
 
 ---
 
 ⭐ **Dê uma estrela se este projeto te ajudou!**
 
-Feito com ❤️ e muito ☕ para amantes de doces artesanais.
-- `/vendas`: Ver vendas realizadas.
 
 Para pagamentos, é simulado - apenas registra o método escolhido.
