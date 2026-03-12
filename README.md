@@ -263,6 +263,29 @@ mvn test jacoco:report
 
 ## 🚀 Deploy
 
+Render (Atual)
+
+A aplicação está deployada e online no Render.
+
+Foi configurado Dockerfile para build e execução da aplicação.
+
+Suporta escalabilidade e atualizações automáticas via Render.
+
+Link da aplicação: Doceria Delícia Online > https://e-commerce-loja-de-doce-3.onrender.com/
+
+# Dockerfile
+FROM openjdk:17-jdk-slim
+COPY target/*.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/app.jar"]
+
+# Build e execução
+docker build -t doceria-app .
+docker run -p 8080:8080 doceria-app
+Outras plataformas
+
+Configuração pronta para Heroku, AWS, Azure ou GCP usando containers.
+
 ### Docker (Recomendado)
 
 ```dockerfile
